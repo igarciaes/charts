@@ -148,3 +148,10 @@ questions:
     min: 30000
     max: 32767
     label: Service NodePort number
+- variable: external.enabled
+  default: false
+  description: "Enable external access"
+  type: boolean
+  label: Enable external access
+  show_subquestion_if: true
+  group: "External"
